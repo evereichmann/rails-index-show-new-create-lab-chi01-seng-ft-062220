@@ -1,0 +1,7 @@
+<h1>Coupons#index</h1>
+<% @coupons.each do |coupon|%>
+<p><%= link_to coupon.store, coupon_path(coupon) %></p>
+<% end %>
+
+
+<!-- delete button here -->
